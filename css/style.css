@@ -1,5 +1,9 @@
 /* Added codes */
 
+.video-title h1{
+    font-size:40px;
+}
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -381,4 +385,18 @@ a{
 .contact-us i:hover{
     color:gray;
     transition: all .3s;
+}
+
+#video-style{
+    border:2px solid white;
+    padding:5px;
+    border-radius:15px;
+    width:500px;
+}
+
+@media only screen and (max-width:1100px){
+    #video-style{
+        width: 100%;
+        height: auto;
+    }
 }
