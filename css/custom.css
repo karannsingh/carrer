@@ -66,6 +66,12 @@ footer.details {
     padding: 20px;
 }
 
+.navbar-right{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
 .testimonial div {
     border: 1px solid #ffffff;
     border-radius: 10px;
@@ -230,6 +236,16 @@ footer.details .logo {
         top:0!important;
         height: 1080px!important;
         background-size: auto;
+    }
+}
+
+@media (max-width:760px){
+    .navbar-right{
+        display:block !important;
+    }
+
+    .navbar-right li a{
+        text-align:center !important;
     }
 }
 

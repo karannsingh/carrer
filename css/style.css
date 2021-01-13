@@ -400,3 +400,42 @@ a{
         height: auto;
     }
 }
+
+.btn {
+    min-width: 60px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+
+.menu-margin {
+  margin-top: 3px;
+}
+
+.navbar-nav li a{
+    color:white!important;
+}
+
+.btn-inner{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1px;
+    transition: all .5s ease;
+}
+
+.navbar-nav li a:hover{
+    color:#999!important;
+}
+
+.overlay-navbar{
+    background-color:transparent !important;
+}
+
+.navbar-nav .btn-primary{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height:32px !important;
+}
